@@ -3,4 +3,4 @@ nixPkgs = ["...", "unzip"] # Install the unzip package from Nix
 cmds = ["...", "unzip target/ddex-message-validator*.zip -d build/"] # Unzip the DDEX message validator
 
 [start]
-cmd = "cd build/* && ./start-api"
+cmd = "cd build/*/bin && ./start-api"
