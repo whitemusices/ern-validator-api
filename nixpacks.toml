@@ -6,4 +6,4 @@ cmds = ["...", "unzip target/ddex-message-validator*.zip -d build/"] # Unzip the
 cmd = "cd build/*/bin && ./start-api"
 
 [variables]
-NIXPACKS_JDK_VERSION=8
+NIXPACKS_JDK_VERSION='8'
